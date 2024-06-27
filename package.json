@@ -1,0 +1,26 @@
+{
+  "name": "calci",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev" : "tsc && node build/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node src/index.ts",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "typescript": "^5.5.2"
+  },
+  "dependencies": {
+
+    "@types/express" : "4.17.21", 
+    "@types/cors" : "2.8.12", 
+    "express" : "4.17.1",
+    "http" : "0.0.1-security",
+    "body-parser" : "1.19.0"
+  }
+}
